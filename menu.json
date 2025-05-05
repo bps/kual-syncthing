@@ -1,0 +1,12 @@
+{
+	"items": [
+		{
+		"name": "Syncthing",
+		"priority": 0,
+		"items": [
+			{"name": "Start syncing", "priority": 1, "action": "/mnt/us/extensions/syncthing/bin/start", "exitmenu": false, "checked": true, "refresh":true},
+			{"name": "Stop syncing", "priority": 2, "action": "/mnt/us/extensions/syncthing/bin/stop", "exitmenu": false, "checked": true, "refresh":true}
+		]
+		}
+	]
+}
